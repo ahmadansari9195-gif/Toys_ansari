@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys Ansari | ·Ì‰òùœÊ‰Ì</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Tahoma, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            border-radius: 24px;
+            padding: 40px 30px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #fff;
+            padding: 16px;
+            border-radius: 14px;
+            margin-bottom: 14px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .telegram { background: linear-gradient(135deg, #0088cc, #00aaff); }
+        .rubika   { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+        .instagram{ background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .icon { font-size: 20px; }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">?? «”»«»ù»«“Ì «‰’«—Ì</div>
+        <div class="subtitle">„« —« œ— ‘»òÂùÂ«Ì «Ã „«⁄Ì œ‰»«· ò‰Ìœ</div>
+
+        <a href="https://t.me/toys_ansari" class="link-btn telegram" target="_blank">
+            <span class="icon">:airplane:</span>  ·ê—«„
+        </a>
+
+        <a href="https://www.rubika.ir/toys_ansari" class="link-btn rubika" target="_blank">
+            <span class="icon">:speech_balloon:</span> —Ê»Ìò«
+        </a>
+
+        <a href="https://www.instagram.com/toys_ansari" class="link-btn instagram" target="_blank">
+            <span class="icon">:camera:</span> «Ì‰” «ê—«„
+        </a>
+
+        <div class="footer">:copyright: Toys Ansari</div>
+    </div>
+</body>
+</html>
+20:32
+
