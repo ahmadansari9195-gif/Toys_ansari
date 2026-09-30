@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toys Ansari | لینک‌دونی</title>
+    <!-- این خط برای بارگذاری آیکون‌های اصلی تلگرام و اینستاگرام ضروری است -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -39,7 +41,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 12px;
             text-decoration: none;
             color: #fff;
             padding: 16px;
@@ -56,7 +58,8 @@
         .telegram { background: linear-gradient(135deg, #0088cc, #00aaff); }
         .rubika   { background: linear-gradient(135deg, #6a11cb, #2575fc); }
         .instagram{ background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
-        .icon { font-size: 20px; }
+        .icon { font-size: 24px; }
+        .rubika-img { width: 24px; height: 24px; object-fit: contain; }
         .footer {
             margin-top: 20px;
             font-size: 12px;
@@ -69,16 +72,19 @@
         <div class="logo">🧸 اسباب‌بازی انصاری</div>
         <div class="subtitle">ما را در شبکه‌های اجتماعی دنبال کنید</div>
 
+        <!-- دکمه تلگرام با آیکون اصلی -->
         <a href="https://t.me/toys_ansari" class="link-btn telegram" target="_blank">
-            <span class="icon">✈️</span> تلگرام
+            <i class="fab fa-telegram icon"></i> تلگرام
         </a>
 
+        <!-- دکمه روبیکا با عکس اختصاصی -->
         <a href="https://www.rubika.ir/toys_ansari" class="link-btn rubika" target="_blank">
-            <span class="icon">💬</span> روبیکا
+            <img src="rubika.png" alt="روبیکا" class="rubika-img"> روبیکا
         </a>
 
+        <!-- دکمه اینستاگرام با آیکون اصلی -->
         <a href="https://www.instagram.com/toys_ansari" class="link-btn instagram" target="_blank">
-            <span class="icon">📷</span> اینستاگرام
+            <i class="fab fa-instagram icon"></i> اینستاگرام
         </a>
 
         <div class="footer">© Toys Ansari</div>
